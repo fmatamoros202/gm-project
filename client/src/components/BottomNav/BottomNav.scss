@@ -1,0 +1,35 @@
+.bottom-nav {
+	display: flex;
+	flex-direction: row;
+	background-color: #4b4b4b;
+	justify-content: space-evenly;
+
+	&__icons {
+		height: 2rem;
+		width: 2.1rem;
+		color: white;
+	}
+}
+
+.bottom-nav__icons-search {
+	width: 2.5rem;
+	height: 2.1rem;
+}
+
+.bottom-nav__icons-eco {
+	width: 1.8rem;
+	height: 1.8rem;
+}
+
+.bar {
+	background-color: #4b4b4b;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.bar-button {
+	padding-top: 0.5rem;
+	height: 1rem;
+	width: 10rem;
+}
