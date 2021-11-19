@@ -10,8 +10,8 @@ function Home() {
 		<div>
 			<PageNav />
 			<CarDetails></CarDetails>
-			<CO2tracker />
 			<DayWeekMonthButtons />
+            <CO2tracker />
 			<BottomNav></BottomNav>
 		</div>
 	);
