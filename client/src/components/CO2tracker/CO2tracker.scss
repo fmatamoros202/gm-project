@@ -43,15 +43,19 @@
     font-size: 0.75rem;
     color: #898989;
     font-weight: 700;
-    margin: 0.25rem 0.5rem;
+    margin-left: -1rem;
     margin-top: 1rem;
+
+    &--margin {
+      margin-left: -2rem;
+    }
   }
   &__main {
     font-size: 3rem;
     color: black;
     font-weight: 700;
     margin: 0.25rem 0.5rem;
-    // margin-left: 1.2rem;
+    margin-left: 1rem;
     margin-bottom: 1rem;
 
     &__inner {

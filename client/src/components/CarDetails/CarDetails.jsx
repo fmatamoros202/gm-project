@@ -5,7 +5,7 @@ import './CarDetails.scss'
 function CarDetails() {
     return (
         <div className="cardetails">
-            <img className="cardetails__image" src={carImage} alt="uploaded-video-poster"></img>
+            <img className="cardetails__image" src={carImage} alt="User Car"></img>
             <h2 className="cardetails__name">Ben's XT4</h2>
             <div className="cardetails__date-and-km">
                 <div className="cardetails__date">

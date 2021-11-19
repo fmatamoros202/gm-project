@@ -7,7 +7,7 @@ function CO2tracker() {
             <div className="inner-container">
                 <div className="relative-container">
                     <div className="content-box">
-                        <p className="content-box__header">CO2 Saved</p>
+                        <p className="content-box__header content-box__header--margin">CO2 Saved</p>
                         <p className="content-box__main">24<span className="content-box__main__inner">KG</span></p>
                     </div>
                     <div className="content-box">
