@@ -1,20 +1,19 @@
 import CarDetails from "../../components/CarDetails/CarDetails";
 import React from "react";
-import PageNav from "../../components/PageNav/PageNav";
 import CO2tracker from "../../components/CO2tracker/CO2tracker";
-import BottomNav from "../../components/BottomNav/BottomNav";
 import DayWeekMonthButtons from "../../components/DayWeekMonthButtons/DayWeekMonthButtons";
-import Guages from "../../components/Gauges/Gauges";
-
+import BottomNav from "../../components/BottomNav/BottomNav";
+import Graph from "../../components/Graph/Graph";
+import PageNav from "../../components/PageNav/PageNav";
 function Home() {
 	return (
 		<div>
 			<PageNav />
 			<CarDetails></CarDetails>
-			<CO2tracker />
 			<DayWeekMonthButtons />
+			<CO2tracker />
+			<Graph />
 			<BottomNav></BottomNav>
-			<Guages></Guages>
 		</div>
 	);
 }

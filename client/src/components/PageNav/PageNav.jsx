@@ -4,19 +4,15 @@ import hamburger from "../../../src/assets/images/Hamburger_icon.png";
 import "./PageNav.scss";
 
 function PageNav() {
-	return (
-		<div className="pagenav">
-			<div className="pagenav__container">
-				<img className="pagenav__logo" src={logo} alt="page logo" />
-				<p className="pagenav__title">ECO TRACK</p>
-				<img
-					className="pagenav__hamburger"
-					src={hamburger}
-					alt="hamburger image"
-				/>
-			</div>
-		</div>
-	);
+    return (
+        <div className="pagenav">
+            <div className="pagenav__container">
+                <img className="pagenav__logo" src={logo} alt="page logo" />
+                <p className="pagenav__title">ECO TRACK</p>
+                <img className="pagenav__hamburger" src={hamburger} alt="hamburger" />
+            </div>
+        </div>
+    )
 }
 
 export default PageNav;
