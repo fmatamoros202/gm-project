@@ -7,9 +7,11 @@ import './PageNav.scss';
 function PageNav() {
     return (
         <div className="pagenav">
-            <img className="pagenav__logo" src={logo} alt="page logo" />
-            <p className="pagenav__title">ECO TRACK</p>
-            <img className="pagenav__hamburger" src={hamburger} alt="hamburger image" />
+            <div className="pagenav__container">
+                <img className="pagenav__logo" src={logo} alt="page logo" />
+                <p className="pagenav__title">ECO TRACK</p>
+                <img className="pagenav__hamburger" src={hamburger} alt="hamburger image" />
+            </div>
         </div>
     )
 }
