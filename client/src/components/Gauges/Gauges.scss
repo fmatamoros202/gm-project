@@ -1,0 +1,72 @@
+$body-bg: #4b4b4b;
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	background: $body-bg;
+	color: #e2e8f0;
+}
+
+.gauges {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-top: 2rem;
+	$body-bg: #4b4b4b;
+}
+
+.gauges1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-top: 2rem;
+}
+
+.guage {
+	display: grid;
+	place-items: center;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	cursor: default;
+	font-size: 2rem;
+
+	&.one {
+		color: #ffffff;
+		background: conic-gradient(#f8cb82 0% 12%, #dedede 12% 100%);
+	}
+
+	&.two {
+		color: #f8f8f8;
+		background: conic-gradient(#f8cb82 0% 42%, #dedede 32% 100%);
+	}
+
+	&.three {
+		color: #fdfcfa;
+		background: conic-gradient(#f8cb82 0% 95%, #dedede 89% 100%);
+	}
+
+	&.four {
+		color: #ffffff;
+		background: conic-gradient(#f8cb82 0% 74%, #dedede 74% 100%);
+	}
+	.guage-inner {
+		display: grid;
+		place-items: center;
+		width: 120px;
+		height: 120px;
+		border-radius: 50%;
+		background: $body-bg;
+	}
+}
+
+.tag {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2rem;
+	justify-content: space-evenly;
+}

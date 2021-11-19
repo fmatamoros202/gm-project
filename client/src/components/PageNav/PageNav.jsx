@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from '../../../src/assets/images/logo.png';
+import logo from "../../../src/assets/images/gm-logo-mini.png";
 import hamburger from '../../../src/assets/images/Hamburger_icon.png';
 import './PageNav.scss';
 import {Link} from 'react-router-dom'
-
 
 function PageNav() {
     return (
