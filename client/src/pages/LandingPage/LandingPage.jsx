@@ -1,15 +1,24 @@
+import './LandingPage.scss';
+import gmlogo from '../../assets/images/gm-logo.svg';
+
+
 let LandingPage = (props)=>{
 
     return(
         <>
-            <h1>GM's Emission Tracker App</h1>
-            <h2>Log In</h2>
-            <form>
-                <label>User Name</label>
-                <input type='text'></input>
-                <label>Password</label>
-                <input type="text"></input>
-            </form>
+            <div className ="main-container">
+                <div className ="container-form">
+                    <h2 className="header"><img className="header__logo" src={gmlogo} alt="GM's logo"/>GM's Emissions Tracker</h2>
+                    <h3 className="subheader">Log-In</h3>
+                    <form className="form">
+                        <label className="form__label">User Name</label>
+                        <input className="form__input" type='text'></input>
+                        <label className="form__label">Password</label>
+                        <input className="form__input" type="text"></input>
+                        <div className="form__cta">Sign-In</div>
+                    </form>
+                </div>
+            </div>
         </>
     )
 };
