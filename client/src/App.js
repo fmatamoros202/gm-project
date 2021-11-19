@@ -1,4 +1,4 @@
-import {Component} from "react";
+// import {Component} from "react";
 import {Switch, Route, BrowserRouter} from 'react-router-dom';
 import LandingPage from './pages/LandingPage/LandingPage'
 import Home from './pages/Home/Home'

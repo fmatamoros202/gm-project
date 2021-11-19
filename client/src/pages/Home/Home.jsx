@@ -13,8 +13,8 @@ function Home() {
 			<CarDetails></CarDetails>
 			<DayWeekMonthButtons />
             <CO2tracker />
+			<Graph />
             <BottomNav></BottomNav>
-            <Graph />
 		</div>
 	);
 }

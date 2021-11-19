@@ -45,7 +45,7 @@ function Graph() {
                     </div>
                 </div>
             </div>
-            <Link className="graph-container__link" to="">
+            <Link className="graph-container__link" to="../gmusers/vision">
                 <p className="graph-container__text">See How GM's doing</p>
             </Link>
             

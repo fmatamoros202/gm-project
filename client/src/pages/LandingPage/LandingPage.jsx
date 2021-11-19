@@ -28,7 +28,7 @@ class LandingPage extends Component{
                             <label className="form__label">User Name</label>
                             <input name='username' className="form__input" type='text'></input>
                             <label className="form__label">Password</label>
-                            <input type='password' name='password' className="form__input" type="text"></input>
+                            <input type='password' name='password' className="form__input"></input>
                             <input type="submit" className="form__cta" value="Sign-In"></input>
                         </form>
                     </div>

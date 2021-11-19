@@ -10,7 +10,7 @@ function PageNav() {
             <div className="pagenav__container">
                 <img className="pagenav__logo" src={logo} alt="page logo" />
                 <p className="pagenav__title">ECO TRACK</p>
-                <img className="pagenav__hamburger" src={hamburger} alt="hamburger image" />
+                <img className="pagenav__hamburger" src={hamburger} alt="hamburger" />
             </div>
         </div>
     )
