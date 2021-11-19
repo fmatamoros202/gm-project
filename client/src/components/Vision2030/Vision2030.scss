@@ -1,0 +1,59 @@
+.vision {
+  background-color: #4b4b4b;
+
+  &-text {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    &__title {
+      color: white;
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    &__number {
+      color: white;
+      font-size: 2rem;
+      margin: 0;
+    }
+  }
+
+  &-bar {
+    &__container {
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 0.7rem;
+      padding-bottom: 2rem;
+    }
+
+    &__outside {
+      background-color: #48aa698a;
+      height: 1.25rem;
+      width: 90vw;
+      border-radius: 0.2rem;
+    }
+    &__light-green {
+      width: 60%;
+      border-radius: 0.2rem;
+      height: 100%;
+      background-color: #5acb80;
+      opacity: 40%;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+  }
+}
+
+.graph-icon {
+  width: 30vw;
+
+  &__container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+  }
+}
