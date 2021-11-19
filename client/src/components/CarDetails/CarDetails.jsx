@@ -14,7 +14,7 @@ function CarDetails() {
                 </div>
                 <div className="cardetails__km">
                     <p className='cardetails__km-left'>172</p>
-                    <p className='cardetails__km-left-label'>KM Left</p>
+                    <p className='cardetails__km-left-label'>KM</p>
                 </div>
             </div>
         </div>
