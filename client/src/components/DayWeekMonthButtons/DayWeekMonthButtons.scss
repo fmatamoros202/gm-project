@@ -1,0 +1,49 @@
+.date {
+  background-color: #4b4b4b;
+
+  &-top {
+    display: flex;
+    justify-content: center;
+
+    &__name {
+      font-size: 0.6rem;
+      border: 0.1rem solid #9e8d6c;
+      background-color: #4b4b4b;
+      color: white;
+      width: fit-content;
+      padding: 0.5rem 0.45rem;
+
+      &:hover {
+        background-color: #9e8d6c;
+      }
+
+      &:focus {
+        background-color: #9e8d6c;
+      }
+      &-week {
+        border-top: 0.1rem solid #9e8d6c;
+        border-bottom: 0.1rem solid #9e8d6c;
+        border-right: none;
+        border-left: none;
+      }
+    }
+  }
+
+  &-fulldate {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.7rem;
+
+    &__calender-icon {
+      width: 0.9rem;
+      object-fit: contain;
+      margin-right: 0.3rem;
+    }
+
+    &__date {
+      color: white;
+      font-size: 0.5rem;
+      font-weight: bold;
+    }
+  }
+}
