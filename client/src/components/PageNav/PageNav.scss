@@ -1,9 +1,14 @@
 .pagenav {
-  display: flex;
-  width: 90%;
-  margin: 1rem auto 0;
-  justify-content: space-between;
-  align-items: center;
+  background-color: #4b4b4b;
+
+  &__container {
+    display: flex;
+    width: 90%;
+    padding-top: 1rem;
+    margin: 0 auto 0;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   &__logo {
     width: 3.375rem;
