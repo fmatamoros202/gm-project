@@ -5,6 +5,7 @@ import DayWeekMonthButtons from "../../components/DayWeekMonthButtons/DayWeekMon
 import BottomNav from "../../components/BottomNav/BottomNav";
 import Graph from "../../components/Graph/Graph";
 import PageNav from "../../components/PageNav/PageNav";
+
 function Home() {
 	return (
 		<div>
