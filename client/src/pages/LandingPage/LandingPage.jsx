@@ -22,7 +22,7 @@ class LandingPage extends Component{
             <>
                 <div className ="main-container">
                     <div className ="container-form">
-                        <h2 className="header"><img className="header__logo" src={gmlogo} alt="GM's logo"/>GM's Emissions Tracker</h2>
+                        <h2 className="header"><img className="header__logo" src={gmlogo} alt="GM's logo"/>GM's Eco Tracker</h2>
                         <h3 className="subheader">Log-In</h3>
                         <form className="form" onSubmit={this.loginHandle}>
                             <label className="form__label">User Name</label>
