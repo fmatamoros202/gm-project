@@ -1,0 +1,64 @@
+.graph-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #4b4b4b;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__text {
+    color: #f7cb82;
+    padding-bottom: 0.1rem;
+    border-bottom: solid 0.0625rem #f7cb82;
+  }
+}
+
+.graph-inner-container {
+  &__header {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    color: #f4f4f4;
+    font-weight: 700;
+    align-items: center;
+  }
+}
+
+.graph {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to top, #9e8d6c, #4b4b4b);
+
+  &__elements {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    align-items: center;
+    width: 9vw;
+
+    &__number {
+      color: #f4f4f4;
+    }
+
+    &__bar {
+      height: 15vh;
+      width: 6vw;
+      background-color: #f4f4f4;
+      border-radius: 0.25rem;
+
+      &--dateNow {
+        background-color: #f7cb82;
+      }
+    }
+
+    &__text {
+      color: #f4f4f4;
+    }
+  }
+}
